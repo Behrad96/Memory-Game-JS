@@ -1,0 +1,34 @@
+<!Doctype html>
+<html>
+<head>
+<title>Memory Game</title>
+<link rel="stylesheet" type="text/css" href="animate.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="javascript.js"></script>
+<link rel="icon" href="icon.png" type="img/png">
+
+
+</head>
+
+<body>
+	<div id="outer_board" align="center">
+		<div id="inner_board" align="center">
+			<img alt="Memory Game" src="memory_challenge.png"
+				class="animated bounceInLeft" height="250" width="700">
+			<div id="memory_board" class="animated bounceInRight">
+
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+
+		newBoard();
+		for (; i < memory_array.length; i++) {
+			make_home();
+			document.getElementById('memory_board').innerHTML = output;
+		}
+	</script>
+
+</body>
+</html>
